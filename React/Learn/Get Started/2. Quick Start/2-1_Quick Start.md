@@ -256,6 +256,174 @@ JavaScript에서 0은 falsy 값이므로 아무것도 렌더링이 되지 않아
 
 JavaScript에서 `&&` 연산자는 앞의 조건이 `falsy`한 값이 라면, 해당 객체를 반환하기 때문에, 0이 반환되어 랜더링이 됩니다.
 
-## 요약
+## Rendering Lists
 
-- JSX식에는 반드시 부모 요소가 하나 이상은 있어야 한다.
+> 목록 랜더링
+
+컴포넌트 목록을 랜더링하려면, `for` 문을 통한 Loop 및 배열 `map()` 메서드와 같은 JavaScript 기능을 사용해야 합니다.
+
+#### e.g. 상품 배열
+
+```js
+const products = [
+  { title: "Cabbage", id: 1 },
+  { title: "Garlic", id: 2 },
+  { title: "Apple", id: 3 },
+];
+```
+
+컴포넌트 내에서 `map()` 함수를 사용하여 상품 배열을 `<li>`항목 배열로 반환합니다.
+
+```jsx
+const listItems = products.map((product) => (
+  <li key={product.id}>{product.title}</li>
+));
+
+return <ul>{listItems}</ul>;
+```
+
+> `<li>` 에 `Key` 속성이 있다는 것을 주목해야 합니다.
+
+목록의 각 항목에 대해, 형제 항목 중에서 해당 항목을 **고유하게 식별**하는 문자열 또는 숫자를 전달해야 합니다. 일반적으로 Key의 값은 데이터 베이스 ID와 같은 데이터에서 가져와야 합니다.
+
+- React는 나중에 항목을 삽입,삭제 또는 재정령할 때 어떤 일이 일어났는지 이해하기 위해 Key를 사용하기도 합니다.
+
+```jsx
+const products = [
+  { title: "Cabbage", isFruit: false, id: 1 },
+  { title: "Garlic", isFruit: false, id: 2 },
+  { title: "Apple", isFruit: true, id: 3 },
+];
+
+export default function ShoppingList() {
+  const listItems = products.map((product) => (
+    <li
+      key={product.id}
+      style={{
+        color: product.isFruit ? "magenta" : "darkgreen",
+      }}
+    >
+      {product.title}
+    </li>
+  ));
+
+  return <ul>{listItems}</ul>;
+}
+```
+
+화면에는 `<li>...</li>`로 감싸진 문자들이 나타내진다.
+
+- `Cabbage`, `Garlic`, `Apple`
+
+## Responding to events
+
+> 이벤트에 응답하기
+
+컴포넌트 내부에 **_이벤트 핸들러_** 함수를 선언하여 이벤트에 응답할 수 있습니다.
+
+```jsx
+function MyButton() {
+  // 클릭 이벤트 함수
+  function handleClick() {
+    alert("You clicked me!");
+  }
+
+  return <button onClick={handleClick}>Click me</button>;
+}
+```
+
+- 버튼의 `onClick`에 props로 이벤트 핸들링 함수를 전달하면서, React는 사용자가 버튼을 클릭했을 때, 해당 이벤트 핸들러를 호출합니다.
+
+## Updating the screen
+
+> 화면 업데이트 하기
+
+컴포넌트가 특정 정보를 **기억**하여 표시하기를 원하는 경우가 종종 있습니다. 예를 들어, 버튼이 클릭된 횟수를 하고 싶을 때, 이러할 경우 컴포넌트에서 상태관리를 통해 구현할 수 있습니다.
+
+- 상태관리를 위한 대표 훅 : `useState`
+
+useState를 사용하기 위해서는 인자로 `초깃값`을 설정해주어야 합니다. 필수 값은 아니지만, 필수적으로 초기값을 넣어주는 것을 권장되어집니다.
+
+```jsx
+import { useState } from "react";
+
+function MyButton() {
+  // 이제 컴포넌트 내부에 state 변수를 선언할 수 있습니다:
+  const [count, setCount] = useState(0);
+
+  function handleClick() {
+    setCount(count + 1);
+  }
+
+  return <button onClick={handleClick}>Clicked {count} times</button>;
+}
+```
+
+`useState`에 두 가지를 얻을 수 있습니다.
+
+- 현재의 상태인 `count`와 이를 업데이트할 수 있는 함수 `setCount`
+- 버튼이 처음 표시 될 때는 `useState()` 에 인자로 초깃값 `0`을 전달을 했기 때문에, `count`가 `0`이 됩니다.
+- 이때, 버튼을 클릭할 경우 `이벤트 핸들러`가 호출됩니다.
+- 이벤트 핸들러 내부에는 `setCount(count + 1)` 로서, 현재의 state에서 `+1`을 해주고 변경된 상태를 전달합니다.
+- 증가된 숫자의 상태가 가상 DOM은 이전에 DOM과 비교했을때, 변경이 되어지면서 리랜더링하게 됩니다.
+- 결과적으로, `1`이 출력이 됩니다.
+
+## Using Hooks
+
+> 훅 사용하기
+
+`use`로 시작하는 함수를 **훅(Hook)**이라고 합니다. `useState`는 React에서 제공하는 **빌트인 훅**입니다. 리액트를 설치했을 때, 내장된 훅입니다.
+
+이러한 훅은 기존의 훅을 조합하여 커스텀하여 훅을 작성할 수 있습니다.
+
+훅은 일반 함수보다 더 제한적입니다. 컴포넌트(또는 다른 훅)의 **최상위 레벨**에서만 훅을 호출할 수 있습니다. 조건문이나 반복문에서 `useState`를 사용하고 싶다면, 대신 새로운 컴포넌트를 추출하고, 그 컴포넌트에서 작성해야 합니다.
+
+## What Is Hooks?
+
+> 훅이란 무엇인가?
+
+리액트 Hook은 함수형 컴포넌트에서 **상태(state\*)**와 **생명주기(Life Cycle)**기능을 제공하는 리액트의 기능을 말합니다. Hook은 함수형 컴포넌트에서도 상태 관리와 부작용(Side-Effect)을 처리할 수 있게 해주며, 기존 클래스형 컴포넌트에서 제공되는 기능들을 함수형 컴포넌트에서도 사용할 수 있도록 합니다.
+
+쉽게 말하자면, 마치 요리를 할 때, 사용하는 다양한 도구들과 비슷하다고 볼 수 있습니다. 요리를 하려면 식재료를 잘라내거나 섞는 등의 작업을 해야하고 그 과정에서 다양한 도구들이 필요한데, 이떄 사용하는 것들을 Hook이라 보면 됩니다.
+
+예를 들어서, `useState`의 경우 마치 요리할 떄 사용하는 식재료 자르기 도구라고 가정하면, `useState` Hook은 컴포넌트에 상태를 추가할 수 있는데, 이는 마치 요리에 필요한 재료를 자르고 추가하는 것과 비슷하다고 볼 수 있습니다.
+
+상태를 정의하고, 그 값을 변경하는 함수를 사용하여 원하는 대로 상태를 조작할 수 있도록 합니다.
+
+- React에서 Hook은 `use`라는 접두사를 가지고 있는 함수로, 리액트 빌트인 훅을 사용하거나, 직접 커스텀 Hook을 만들어 사용할 수 있습니다.
+
+- 자주 사용하는 빌트인 훅 : `useState`, `useEffect`
+
+#### useEffect란?
+
+생명주기(Life Cycle)와 관련된 작업을 할 수 있게 해주는 Hook입니다. 컴포넌트가 랜더링 된 후에 실행되는 작업을 처리하기 위한 기능을 제공합니다. 이때, Side Effect가 발생할 수 있습니다.
+
+예를 들어서, 요리 과정에서의 다양한 작업들을 처리하는 도구라고 볼 수 있습니다. 요리를 하다가 팬에 음식물이 끼는 것을 방지하기 위해 팬을 깨끗하게 닦는 작업이 필요할 수 있습니다. 이떄, 요리 후 팬을 깨끗히 닦도록 동작을 수행하도록 명령을 한다면 이것이 useEffect와 비슷하다고 볼 수 있습니다.
+
+## Sharing data between components
+
+> 컴포넌트 간 데이터 공유하기
+
+이전 예제에서는 각각의 `<MyButton/>` 컴포넌트에 독립적인 `count`가 있었고, 각 버튼을 클릭하면 클릭한 버튼의 `count`만 변경이 되었습니다.
+
+하지만, **데이터를 공휴하고 항상 함께 업데이트**하기 위한 컴포넌트가 필요할 수 있습니다. 이떄, 최상위 컴포넌트에서 상태관리를 통해서 구현할 수 있습니다.
+
+```jsx
+export default function MyApp() {
+  const [count, setCount] = useState(0);
+
+  const handleClick = () => {
+    setCount((prev) => prev + 1);
+  };
+  return (
+    <div>
+      <MyButton count={count} onClick={handleClick} />
+      <MyButton count={count} onClick={handleClick} />
+    </div>
+  );
+}
+```
+
+`<MyButton/>` 컴포넌트에 클릭 이벤트 핸들러와 count의 상태(state)를 자식요소로 전달하면서 최상위 컴포넌트인 `<App/>`에서 상태를 관리할 수 있게 됩니다.
+
+이렇게 될 경우, 버튼 중 하나의 버튼만 클릭해도 각각의 `<MyButton/>`에 같은 상태(state)를 props로 전달하게 됩니다.
