@@ -55,6 +55,12 @@ export default function App() {
 }
 ```
 
+보통 JavaScript에서는 default export와 named export라는 두 가지 방법으로 값을 export 합니다. 지금까지의 예제에서는 default export만 사용했지만 두 방법 다 한 파일에서 사용할 수도 있습니다. **다만 한 파일에서는 하나의 default export만 존재할 수 있고 named export는 여러 개가 존재할 수 있습니다.**
+
+![](../../../../assets/React-L-1-2.svg)
+
+**보편적으로 한 파일에서 하나의 컴포넌트만 export할 때, default export 반식을 사용하고, 여러 컴포넌트를 export할 경우엔 named export 방식을 사용합니다.** 어떤 방식을 사용하든 컴포넌트와 파일의 이름을 의미 있게 명명하는 것이 중요합니다. `export default ()=>{}` 처럼 이름 없는 컴포넌트는 나중에 디버깅이 어렵기에 권장하지 않습니다.
+
 ## Exporting and importing multiple components from the same file
 
 > 동일한 파일에서 여러 컴포넌트 import 및 export하기
