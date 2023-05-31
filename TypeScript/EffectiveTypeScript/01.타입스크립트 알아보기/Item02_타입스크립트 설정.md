@@ -11,13 +11,14 @@ function add(a, b) {
 add(10, null);
 ```
 
-다음의 코드는 타입 체커를 통과할 수 없습니다. 이 설정들은 커맨드 라인에서 사용할 수 있습니다.
+다음의 코드는 타입 체커를 통과할 수 없습니다. 정확히 말하면, 타입 설정이 어떻게 되어 있는지 모른다면, 대답할 수 오류인지 아닌지는 대답할 수 없습니다. 타입스크립트 컴파일러는 매우 많은 설정을 가지고 있고, 현재 시점에서는 거의 100개에 이릅니다. 이 설정들은 커맨드 라인에서 사용할 수 있습니다.
 
 ```bash
-tsc --noImplicitAny program.ts
+// 타입스크립트 컴파일
+tsc --noImplicitAny 파일명.ts
 ```
 
-또한, `tsconfig.json`설정 파일을 통해서도 가능합니다.
+위의 코드를 입력하게 되면 컴파일된 `파일명.js`가 생성됩니다. 또한, 이밖의 타입 테커를 위한 설정들은 `tsconfig.json`설정 파일을 통해서도 가능합니다.
 
 ```ts
 
@@ -31,13 +32,23 @@ tsc --noImplicitAny program.ts
 
 가급적 설정파일을 사용하는 것이 좋습니다. 그래야만 타입스크립트를 어떻게 사용할 계획인지 동료들이나 다른 도구들이 알 수 있습니다. 설정 파일은 `tsc --init`만 실행하면 간단히 생성됩니다.
 
-타입스크립트의 설정들은 어디서 소스 파일을 찾을지, 어떤 종류의 출력을 생성할지 제어하는 내용이 대부분입니다. 언어에서는 허용하지 않는 고수준 설계의 설정입니다. 타입스크립트는 어떻게 설정하느냐에 따라 완전히 다른 언어처럼 느껴질 수 있습니다. 설정을 제대로 사용하려면 `noImplicitAny`와 `strictNullChecks`를 이해해야 한다.
+타입스크립트의 설정들은 어디서 소스 파일을 찾을지, 어떤 종류의 출력을 생성할지 제어하는 내용이 대부분입니다. 언어에서는 허용하지 않는 고수준 설계의 설정입니다. 타입스크립트는 어떻게 설정하느냐에 따라 완전히 다른 언어처럼 느껴질 수 있습니다. 설정을 제대로 사용하려면 [noImplicitAny[바로가기]](https://www.typescriptlang.org/tsconfig#noImplicitAny)와 [strictNullChecks[바로가기]](https://www.typescriptlang.org/tsconfig#strictNullChecks)를 이해해야 한다.
 
 > **Key Point💡**
 >
 > `noImplicitAny` : 변수들이 미리 정의된 타입을 가져야 하는지 여부를 제어합니다.
 
 다음의 코드는 `noImplicitAny`가 해제되어 있을 때 유효합니다.
+
+```ts
+
+{
+  "compilerOptions":{
+    "noImplicitAny":false
+  }
+}
+
+```
 
 ```ts
 function add(a, b) {
@@ -84,6 +95,15 @@ function add(a: number, b: number) {
 
 다음은 `strickNullChecks`가 해제되었을 때 유효한 코드입니다.
 
+```json
+{
+  "compilerOptions": {
+    "strictNullChecks": false
+    // ...
+  }
+}
+```
+
 ```ts
 const x: number = null; // 정상, null은 유효한 값입니다.
 ```
@@ -113,6 +133,10 @@ if (el) {
 el!.textContent = "Ready"; // 정상, el이 null이 아님을 단언합니다.
 ```
 
+**\*non-null 단언 연산자**
+
+- `!`는 non-null 단언 연산자로서 컴파일러가 값이 null 혹은 undefined 일수도 있다하며 불평한다면 단순히 뒤에 ! 를 붙이며, 이 값은 null 혹은 undefined 가 될수없다를 의미하게 됩니다.
+
 `strictNullChecks`는 null과 undefined 관련된 오류를 잡아 내는 데 많은 도움이 되지만, 코드 작성을 더 어렵게 만듭니다. 새 프로젝트를 시작한다면 가급적 `strictNullChecks`를 설정하는 것이 좋지만, 타입스크립트가 처음이거나 자바스크립트 코드를 마이그레이션하는 중이라면 설정하지 않아도 좋다습니다.
 
 `strictNullChecks`를 설정하려면 `noImplicitAny`를 먼저 설정해야 합니다. `strictNullChecks`설정없이 개발하고자 한다면 `undefined`는 객체가 아닙니다. 라는 런타임 오류를 주의해야 합니다.
@@ -139,3 +163,8 @@ el!.textContent = "Ready"; // 정상, el이 null이 아님을 단언합니다.
   - `strictNullChecks`설정을 해제할 경우 발생할 수 있습니다.
 - `strictNullChecks`설정시 프로젝트가 커질 수록 설정 변경이 어려워질 것이므로, 가능한 초반에 설정하는 것이 좋습니다.
 - 타입스크립트에서 엄격한 체크를 하고 싶다면 `strict`설정을 고려해야 합니다.
+
+## 참고
+
+- [TypeScript 공식문서 - Strict Null Checks ](https://www.typescriptlang.org/tsconfig#strictNullChecks)
+- [TypeScript 공식문서 - No Implicit Any ](https://www.typescriptlang.org/tsconfig#noImplicitAny)
