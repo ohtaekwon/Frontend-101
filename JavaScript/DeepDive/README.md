@@ -35,5 +35,5 @@
 
 - [연산자](https://github.com/ohtaekwon/Frontend-101/tree/main/JavaScript/DeepDive/07.%EC%97%B0%EC%82%B0%EC%9E%90)
   - [산술 연산자](https://github.com/ohtaekwon/Frontend-101/tree/main/JavaScript/DeepDive/07.%EC%97%B0%EC%82%B0%EC%9E%90)
-  - [할당 연산자]
-  - [비교 연산자]
+  - [할당 연산자](<07.%EC%97%B0%EC%82%B0%EC%9E%90/07.1_%EC%97%B0%EC%82%B0%EC%9E%90(%EC%82%B0%EC%88%A0%2C%20%ED%95%A0%EB%8B%B9%2C%EB%B9%84%EA%B5%90).md#72-할당-연산자>)
+  - [비교 연산자](<07.%EC%97%B0%EC%82%B0%EC%9E%90/07.1_%EC%97%B0%EC%82%B0%EC%9E%90(%EC%82%B0%EC%88%A0%2C%20%ED%95%A0%EB%8B%B9%2C%EB%B9%84%EA%B5%90).md#73-비교-연산자>)
