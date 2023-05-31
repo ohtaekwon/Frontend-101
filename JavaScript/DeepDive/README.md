@@ -1,9 +1,11 @@
-# JavaScript Study
+# Intro
 
-- 개요 :
-  1.  모던 자바스크립트 DeepDive 공부 후 정리
-  2.  추가된 기능 및 메서드들 정리
+- 개요 : 모던 자바스크립트 DeepDive 공부
 - 시작 : 2023.05.29 ~
+
+## Reference
+
+<img src="../../assets/js_book.png" width="70" height="70" alt="deepdive 책">
 
 ## Guide
 
@@ -35,7 +37,3 @@
   - [산술 연산자](https://github.com/ohtaekwon/Frontend-101/tree/main/JavaScript/DeepDive/07.%EC%97%B0%EC%82%B0%EC%9E%90)
   - [할당 연산자]
   - [비교 연산자]
-
-## Additional
-
-- [[ES2023] 배열과 관련된 자바스크립트 새로운 기능](https://velog.io/@taetae-5/ES2023%EC%9D%98-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%83%88%EB%A1%9C%EC%9A%B4-%EA%B8%B0%EB%8A%A5)
