@@ -33,7 +33,11 @@
   - [객체 타입](<https://github.com/ohtaekwon/Frontend-101/blob/main/JavaScript/DeepDive/06.%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85/6.1_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85(%EC%88%AB%EC%9E%90%2C%20%EB%AC%B8%EC%9E%90%EC%97%B4%2C%20%EB%B6%88%EB%A6%AC%EC%96%B8).md#61-%EC%88%AB%EC%9E%90-%ED%83%80%EC%9E%85>)
   - [타입의 필요성](<https://github.com/ohtaekwon/Frontend-101/blob/main/JavaScript/DeepDive/06.%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85/6.1_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85(%EC%88%AB%EC%9E%90%2C%20%EB%AC%B8%EC%9E%90%EC%97%B4%2C%20%EB%B6%88%EB%A6%AC%EC%96%B8).md#61-%EC%88%AB%EC%9E%90-%ED%83%80%EC%9E%85>)
 
-- [연산자](https://github.com/ohtaekwon/Frontend-101/tree/main/JavaScript/DeepDive/07.%EC%97%B0%EC%82%B0%EC%9E%90)
+- [연산자](./07.%EC%97%B0%EC%82%B0%EC%9E%90/)
   - [산술 연산자](https://github.com/ohtaekwon/Frontend-101/tree/main/JavaScript/DeepDive/07.%EC%97%B0%EC%82%B0%EC%9E%90)
   - [할당 연산자](<07.%EC%97%B0%EC%82%B0%EC%9E%90/07.1_%EC%97%B0%EC%82%B0%EC%9E%90(%EC%82%B0%EC%88%A0%2C%20%ED%95%A0%EB%8B%B9%2C%EB%B9%84%EA%B5%90).md#72-할당-연산자>)
   - [비교 연산자](<07.%EC%97%B0%EC%82%B0%EC%9E%90/07.1_%EC%97%B0%EC%82%B0%EC%9E%90(%EC%82%B0%EC%88%A0%2C%20%ED%95%A0%EB%8B%B9%2C%EB%B9%84%EA%B5%90).md#73-비교-연산자>)
+  - [삼항 조건 연산자](<./07.%EC%97%B0%EC%82%B0%EC%9E%90/07.2_%EC%97%B0%EC%82%B0%EC%9E%90(%EC%82%BC%ED%95%AD%2C%20%EB%85%BC%EB%A6%AC%2C%20%EC%89%BC%ED%91%9C%2C%20%EA%B7%B8%EB%A3%B9%2C%20typeof%2C).md#74-삼항-조건-연산자>)
+  - [논리 연산자](<./07.%EC%97%B0%EC%82%B0%EC%9E%90/07.2_%EC%97%B0%EC%82%B0%EC%9E%90(%EC%82%BC%ED%95%AD%2C%20%EB%85%BC%EB%A6%AC%2C%20%EC%89%BC%ED%91%9C%2C%20%EA%B7%B8%EB%A3%B9%2C%20typeof%2C).md#75-논리-연산자>)
+  - [쉼표 연산자](<./07.%EC%97%B0%EC%82%B0%EC%9E%90/07.2_%EC%97%B0%EC%82%B0%EC%9E%90(%EC%82%BC%ED%95%AD%2C%20%EB%85%BC%EB%A6%AC%2C%20%EC%89%BC%ED%91%9C%2C%20%EA%B7%B8%EB%A3%B9%2C%20typeof%2C).md#76-쉼표-연산자>)
+  - [그룹 연산자](<./07.%EC%97%B0%EC%82%B0%EC%9E%90/07.2_%EC%97%B0%EC%82%B0%EC%9E%90(%EC%82%BC%ED%95%AD%2C%20%EB%85%BC%EB%A6%AC%2C%20%EC%89%BC%ED%91%9C%2C%20%EA%B7%B8%EB%A3%B9%2C%20typeof%2C).md#77-그룹-연산자>)
