@@ -1,11 +1,5 @@
----
-description: 지은이
----
-
 # TK'S DEV TIL
 
-> 오태권
->
 > 시작 : 2023.05.25 \~
 >
 > 이메일 : ohtk1119@gmail.com

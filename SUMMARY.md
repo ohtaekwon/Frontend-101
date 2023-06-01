@@ -1,7 +1,7 @@
 # Table of contents
 
 * [TK'S DEV TIL](README.md)
-* [JavaScript Study](javascript/README.md)
+* [Learn JavaScript](javascript/README.md)
   * [Intro](javascript/deepdive/README.md)
     * [04.변수](javascript/deepdive/04./README.md)
       * [04.1. 변수란 무엇인가?](javascript/deepdive/04./4.1\_.md)
@@ -23,7 +23,7 @@
     * [07.연산자](javascript/deepdive/07./README.md)
       * [07.1. 산술 연산자](javascript/deepdive/07./07.1\_.md)
       * [07.2. 삼항 조건 연산자](javascript/deepdive/07./07.2\_-typeof.md)
-* [React Study](react/README.md)
+* [Learn React](react/README.md)
   * [Get Started](react/get-started/README.md)
     * [1. Installation and starting](react/get-started/1.-installation-and-starting/README.md)
       * [1-1\_Start a New React Project](react/get-started/1.-installation-and-starting/1-1\_start-a-new-react-project.md)
@@ -37,7 +37,7 @@
       * [첫번째 컴포넌트](react/learn-react/1.-ui/1-1\_first-component.md)
       * [컴포넌트 import 및 export](react/learn-react/1.-ui/1-2\_importing-and-exporting-components.md)
       * [JSX로 마크업 작성하기](react/learn-react/1.-ui/1-3\_writing-markup-with-jsx.md)
-* [TypeScript Study](typescript/README.md)
+* [Learn TypeScript](typescript/README.md)
   * [타입스크립트 알아보기](typescript/01./README.md)
     * [타입 스크립트와 자바스크립트의 관계](typescript/01./item01\_.md)
     * [타입스크립트 설정 이해하기](typescript/01./item02\_.md)
