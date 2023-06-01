@@ -1,4 +1,4 @@
-# JavaScript Study
+# Learn JavaScript
 
 ### Intro
 
@@ -8,9 +8,13 @@
 
 ## Reference
 
+* 자바스크립트 DeepDive를 기반으로 정리하였습니다.
+
 ![](../.gitbook/assets/image.png)
 
 ## Guide
+
+목차는 다음과 같습니다.
 
 * [변수](https://github.com/ohtaekwon/Frontend-101/tree/main/JavaScript/DeepDive/04.%EB%B3%80%EC%88%98)
   * [변수의 정의](https://github.com/ohtaekwon/Frontend-101/blob/main/JavaScript/DeepDive/04.%EB%B3%80%EC%88%98/4.1\_%EB%B3%80%EC%88%98%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80.md)
@@ -33,13 +37,13 @@
   * [객체 타입](https://github.com/ohtaekwon/Frontend-101/blob/main/JavaScript/DeepDive/06.%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85/6.1\_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85\(%EC%88%AB%EC%9E%90%2C%20%EB%AC%B8%EC%9E%90%EC%97%B4%2C%20%EB%B6%88%EB%A6%AC%EC%96%B8\).md#61-%EC%88%AB%EC%9E%90-%ED%83%80%EC%9E%85)
   * [타입의 필요성](https://github.com/ohtaekwon/Frontend-101/blob/main/JavaScript/DeepDive/06.%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85/6.1\_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85\(%EC%88%AB%EC%9E%90%2C%20%EB%AC%B8%EC%9E%90%EC%97%B4%2C%20%EB%B6%88%EB%A6%AC%EC%96%B8\).md#61-%EC%88%AB%EC%9E%90-%ED%83%80%EC%9E%85)
 * [연산자](../JavaScript/DeepDive/07.%EC%97%B0%EC%82%B0%EC%9E%90)
-  * [산술 연산자](deepdive/07./07.1\_.md#71-산술-연산자)
-  * [할당 연산자](deepdive/07./07.1\_.md#72-할당-연산자)
-  * [비교 연산자](deepdive/07./07.1\_.md#73-비교-연산자)
-  * [삼항조건연산자](deepdive/07./07.2\_-typeof.md#74-삼항-조건-연산자)
-  * [논리 연산자](deepdive/07./07.2\_-typeof.md#75-논리-연산자)
-  * [쉼표 연산자](deepdive/07./07.2\_-typeof.md#76-쉼표-연산자)
-  * [그룹 연산자](deepdive/07./07.2\_-typeof.md#77-그룹-연산자)
+  * [산술 연산자](07./07.1\_.md#71-산술-연산자)
+  * [할당 연산자](07./07.1\_.md#72-할당-연산자)
+  * [비교 연산자](07./07.1\_.md#73-비교-연산자)
+  * [삼항조건연산자](07./07.2\_-typeof.md#74-삼항-조건-연산자)
+  * [논리 연산자](07./07.2\_-typeof.md#75-논리-연산자)
+  * [쉼표 연산자](07./07.2\_-typeof.md#76-쉼표-연산자)
+  * [그룹 연산자](07./07.2\_-typeof.md#77-그룹-연산자)
 
 ## Additional
 

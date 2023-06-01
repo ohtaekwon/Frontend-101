@@ -1,3 +1,7 @@
+---
+description: 지은이
+---
+
 # TK'S DEV TIL
 
 > 시작 : 2023.05.25 \~
