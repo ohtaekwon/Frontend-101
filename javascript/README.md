@@ -22,7 +22,7 @@ description: 자바스크립트 배우기
 
 ## Additional
 
-* [\[ES2023\] 배열과 관련된 자바스크립트 새로운 기능](https://velog.io/@taetae-5/ES2023%EC%9D%98-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%83%88%EB%A1%9C%EC%9A%B4-%EA%B8%B0%EB%8A%A5)
+<table><thead><tr><th width="422">구분</th><th>링크</th></tr></thead><tbody><tr><td>[ES2023] 배열과 관련된 자바스크립트 새로운 기능</td><td><a href="https://velog.io/@taetae-5/ES2023%EC%9D%98-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%83%88%EB%A1%9C%EC%9A%B4-%EA%B8%B0%EB%8A%A5">정리 글 바로가기</a></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
 ## Quick Links
 
