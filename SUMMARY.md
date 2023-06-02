@@ -23,6 +23,7 @@
   * [7⃣ 07.연산자](javascript/07./README.md)
     * [07.1. 산술, 할당,비교 연산자](javascript/07./07.1\_.md)
     * [07.2. 삼항 조건,논리,쉼표,그룹 연산자](javascript/07./07.2\_-typeof.md)
+    * [07.2. typeof, 지수, 그 외의 연산자](javascript/07./07.2.-typeof.md)
 * [🟦 Learn TypeScript](typescript/README.md)
   * [📘 Guide](typescript/guide.md)
   * [1⃣ 타입스크립트 알아보기](typescript/01./README.md)
