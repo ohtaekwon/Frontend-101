@@ -1,16 +1,22 @@
+---
+description: 자바스크립트 배우기를 들어가며
+---
+
 # 🟨 Learn JavaScript
 
-### Intro
+## Intro
 
-1. 모던 자바스크립트`DeepDive` 공부 후 정리
-2. ES6+ 용법 및 추가 메소드 정리
-3. 시작 : 2023.05.29 \~
+> * **<모던 자바스크립트 DeepDive>** 를공기반으로 정리하였습니다.
+> * ES6+ 용법 및 추가 메소드 및 기능정사항 정리
+> * 시작 : 2023.05.29 \~
+
+
 
 ## Reference
 
-* 자바스크립트 DeepDive를 기반으로 정리하였습니다.
+* 개념 설명 -  자스크립트 DeepDive
 
-![](../.gitbook/assets/image.png)
+<figure><img src="../.gitbook/assets/image.png" alt="자바스크립트 Deep Dive" width="375"><figcaption><p>자바스크립트 DeepDive</p></figcaption></figure>
 
 ##
 
