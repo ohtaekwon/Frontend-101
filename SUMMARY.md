@@ -39,7 +39,7 @@
       * [JSX로 마크업 작성하기](react/learn-react/1.-ui/1-3\_writing-markup-with-jsx.md)
 * [🟦 Learn TypeScript](typescript/README.md)
   * [📘 Guide](typescript/guide.md)
-  * [타입스크립트 알아보기](typescript/01./README.md)
+  * [1⃣ 타입스크립트 알아보기](typescript/01./README.md)
     * [타입 스크립트와 자바스크립트의 관계](typescript/01./item01\_.md)
     * [타입스크립트 설정 이해하기](typescript/01./item02\_.md)
     * [코드 생성과 타입이 관계 없음을 이해하기](typescript/01./item03\_.md)
