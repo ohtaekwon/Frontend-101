@@ -2,7 +2,7 @@
 description: Describing the UI
 ---
 
-# 🎨 1. UI 구성하기
+# 1⃣ 1. UI 구성하기
 
 ## What is "React"?
 

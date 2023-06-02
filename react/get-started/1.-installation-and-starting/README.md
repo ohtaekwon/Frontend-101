@@ -2,7 +2,7 @@
 description: Installation and starting
 ---
 
-# 🔧 1. 설치와 시작하기
+# 1⃣ 1. 설치와 시작하기
 
 ## What will I learn in this Chaper
 

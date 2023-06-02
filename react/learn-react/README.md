@@ -2,7 +2,7 @@
 description: Learn React
 ---
 
-# 🔎 React 배워보기
+# 🎨 React 배워보기
 
 ## What is the purpose of this category?
 

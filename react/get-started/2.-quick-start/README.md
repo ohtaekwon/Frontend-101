@@ -2,7 +2,7 @@
 description: Quick Start
 ---
 
-# 🛴 2. 빠른 시작하기
+# 2⃣ 2. 빠른 시작하기
 
 ## What will I learn in this Chaper
 

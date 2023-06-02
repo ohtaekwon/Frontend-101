@@ -2,7 +2,7 @@
 description: Thinking in React
 ---
 
-# 🤔 3. React로 사고하기
+# 3⃣ 3. React로 사고하기
 
 ## What will I learn in this Chaper
 

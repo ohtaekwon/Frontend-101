@@ -2,7 +2,7 @@
 description: Get Started
 ---
 
-# 👋 시작하기
+# 🔎 시작하기
 
 ## What is the purpose of this category?
 
