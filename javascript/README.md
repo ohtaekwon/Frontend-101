@@ -16,7 +16,7 @@ description: 자바스크립트 배우기를 들어가며
 
 * 개념 설명 -  자스크립트 DeepDive
 
-<figure><img src="../.gitbook/assets/image.png" alt="자바스크립트 Deep Dive" width="375"><figcaption><p>자바스크립트 DeepDive</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt="자바스크립트 Deep Dive" width="188"><figcaption><p>자바스크립트 DeepDive</p></figcaption></figure>
 
 ##
 
@@ -28,4 +28,16 @@ description: 자바스크립트 배우기를 들어가며
 
 {% content-ref url="04./" %}
 [04.](04./)
+{% endcontent-ref %}
+
+{% content-ref url="05./" %}
+[05.](05./)
+{% endcontent-ref %}
+
+{% content-ref url="06./" %}
+[06.](06./)
+{% endcontent-ref %}
+
+{% content-ref url="07./" %}
+[07.](07./)
 {% endcontent-ref %}
