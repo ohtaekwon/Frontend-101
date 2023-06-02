@@ -1,2 +1,2 @@
-# 1. Installation and starting
+# 🔧 1. Installation and starting
 

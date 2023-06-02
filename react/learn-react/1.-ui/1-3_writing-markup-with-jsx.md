@@ -1,14 +1,16 @@
-# Writing Markup with JSX
+---
+description: Writing Markup with JSX
+---
 
-> JSX로 마크업 작성하기
+# 3⃣ 1.3. JSX로 마크업 작성하기
 
 JSX는 JavaScript를 확장한 문법으로, JavaScript파일 안에 HTML과 유사한 마크업을 작성할 수 있도록 해줍니다. 컴포넌트를 작성하는 다른 방법도 있지만, 대부분의 React개발자는 JSX의 간결함을 선호하여 코드베이스에서 JSX를 사용합니다.
 
 ## 학습 내용
 
-- React가 마크업과 렌더링 로직을 같이 사용하는 이유
-- JSX와 HTML의 차이점
-- JSX로 정보를 보여주는 방법
+* React가 마크업과 렌더링 로직을 같이 사용하는 이유
+* JSX와 HTML의 차이점
+* JSX로 정보를 보여주는 방법
 
 ## JSX: Putting markup into JavaScript
 
@@ -35,8 +37,7 @@ onSubmit(){}
 
 각 React컴포넌트는 JSX라는 구문 확장자를 사용하여 해당되는 마크업을 표현합니다. JSX는 HTML과 비슷해보이지만 조금 더 **엄격**하며 **동적**으로 정보를 표시할 수 있습니다. JSX를 이해하는 가장 좋은 방법은 일부의 HTML마크업을 JSX마크업으로 변환해보는 것입니다.
 
-> **_📌 Note _**
-> JSX와 React는 서로 다른 별개의 개념입니다. 종종 함게 사용되기도 하지만, 독립적으로 사용할 수 도 있습니다. JSX는 **구문 확장**이고, React는 JavaScript라이브러리입니다.
+> **\_📌 Note \_** JSX와 React는 서로 다른 별개의 개념입니다. 종종 함게 사용되기도 하지만, 독립적으로 사용할 수 도 있습니다. JSX는 **구문 확장**이고, React는 JavaScript라이브러리입니다.
 
 ## Converting HTML to JSX
 
@@ -100,8 +101,7 @@ export default function TodoList() {
 </>
 ```
 
-> **_📌 Note _** `<></>` 빈 태그란?
-> 이러한 빈 태그를 `Fragment`라고 합니다. Fragment는 브라우저상 HTML 트리 구조에서 흔적을 남기지 않고 그룹화해줍니다.
+> **\_📌 Note \_** `<></>` 빈 태그란? 이러한 빈 태그를 `Fragment`라고 합니다. Fragment는 브라우저상 HTML 트리 구조에서 흔적을 남기지 않고 그룹화해줍니다.
 
 ### Why do multiple JSX tags need to be wrapped?
 
@@ -157,6 +157,6 @@ export default function TodoList() {
 
 JSX가 존재하는 이유와 컴포넌트에서 JSX를 쓰는 방법
 
-- React 컴포넌트는 서로 관련이 있는 마크업과 렌더링 로직을 함께 그룹화합니다.
-- JSX는 HTML과 비슷하지만 몇 가지 차이점이 있습니다. 필요한 경우 변환기를 사용할 수 있습니다.
-- 오류 메세지는 종종 마크업을 수정할 수 있도록 올바른 방향을 알려줍니다.
+* React 컴포넌트는 서로 관련이 있는 마크업과 렌더링 로직을 함께 그룹화합니다.
+* JSX는 HTML과 비슷하지만 몇 가지 차이점이 있습니다. 필요한 경우 변환기를 사용할 수 있습니다.
+* 오류 메세지는 종종 마크업을 수정할 수 있도록 올바른 방향을 알려줍니다.

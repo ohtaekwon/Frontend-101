@@ -1,20 +1,24 @@
-## Importing and Exporting Components
+---
+description: Importing and Exporting Components
+---
 
-> 컴포넌트 import 및 export
+# 2⃣ 1.2. 컴포넌트 import 및 export
 
-## 학습 내용
 
-- 루트 컴포넌트란 무엇인지
-- 컴포넌트를 import하고 export하는 방법
-- default 및 이름 있는 import / export 를 사용해야 하는 경우
-- 하나의 파일에서 여러 컴포넌트를 import / export 하는 방법
-- 컴포넌트를 여러 파일로 분할하는 방법
 
-## The root component file
+### 학습 내용
+
+* 루트 컴포넌트란 무엇인지
+* 컴포넌트를 import하고 export하는 방법
+* default 및 이름 있는 import / export 를 사용해야 하는 경우
+* 하나의 파일에서 여러 컴포넌트를 import / export 하는 방법
+* 컴포넌트를 여러 파일로 분할하는 방법
+
+### The root component file
 
 > 루트 컴포넌트 파일
 
-[첫 번 째 컴포넌트](https://github.com/ohtaekwon/Frontend-101/blob/main/React/Learn/Learn%20React/1.%20UI%EA%B0%9C%EC%9A%94/1-1_First%20Component.md)에서 만든 `Profile` 컴포넌트와 `Gallery`컴포넌트는 아래와 같이 랜더링이 됩니다.
+[첫 번 째 컴포넌트](https://github.com/ohtaekwon/Frontend-101/blob/main/React/Learn/Learn%20React/1.%20UI%EA%B0%9C%EC%9A%94/1-1\_First%20Component.md)에서 만든 `Profile` 컴포넌트와 `Gallery`컴포넌트는 아래와 같이 랜더링이 됩니다.
 
 ```jsx
 function Profile() {
@@ -33,9 +37,9 @@ export default function Gallery() {
 }
 ```
 
-여기서 컴포넌트들은 모두 `App.js`라는 **`root 컴포넌트 파일`**에 존재합니다. **CRA**에서는 앱 전체가 `src/App.jsx`에서 실행됩니다. 설정에 따라 root 컴포넌트가 다른 파일에 위치할 수 있습니다. `Next.js`처럼 `파일 기반``으로 라우팅하는 프레임워크일 경우 페이지별로 root 컴포넌트가 다를 수 있습니다.
+여기서 컴포넌트들은 모두 `App.js`라는 \*\*`root 컴포넌트 파일`\*\*에 존재합니다. **CRA**에서는 앱 전체가 `src/App.jsx`에서 실행됩니다. 설정에 따라 root 컴포넌트가 다른 파일에 위치할 수 있습니다. `Next.js`처럼 \`파일 기반\`\`으로 라우팅하는 프레임워크일 경우 페이지별로 root 컴포넌트가 다를 수 있습니다.
 
-## Exporting and importing a component
+### Exporting and importing a component
 
 > 컴포넌트 import(불러오기) 및 export(내보내기) 하기
 
@@ -57,11 +61,11 @@ export default function App() {
 
 보통 JavaScript에서는 default export와 named export라는 두 가지 방법으로 값을 export 합니다. 지금까지의 예제에서는 default export만 사용했지만 두 방법 다 한 파일에서 사용할 수도 있습니다. **다만 한 파일에서는 하나의 default export만 존재할 수 있고 named export는 여러 개가 존재할 수 있습니다.**
 
-![](../../../../assets/React-L-1-2.svg)
+![](../../../assets/React-L-1-2.svg)
 
 **보편적으로 한 파일에서 하나의 컴포넌트만 export할 때, default export 반식을 사용하고, 여러 컴포넌트를 export할 경우엔 named export 방식을 사용합니다.** 어떤 방식을 사용하든 컴포넌트와 파일의 이름을 의미 있게 명명하는 것이 중요합니다. `export default ()=>{}` 처럼 이름 없는 컴포넌트는 나중에 디버깅이 어렵기에 권장하지 않습니다.
 
-## Exporting and importing multiple components from the same file
+### Exporting and importing multiple components from the same file
 
 > 동일한 파일에서 여러 컴포넌트 import 및 export하기
 
@@ -102,15 +106,15 @@ export default function App() {
 }
 ```
 
-### 이제 default와 named export 방식 둘 다 사용할 수 있게 됐습니다.
+#### 이제 default와 named export 방식 둘 다 사용할 수 있게 됐습니다.
 
-#### `Gallery.jsx`
+**`Gallery.jsx`**
 
-- `Profile` 컴포넌트를 `Profile`로 named export 합니다.
-- `Gallery` 컴포넌트를 default export 합니다.
+* `Profile` 컴포넌트를 `Profile`로 named export 합니다.
+* `Gallery` 컴포넌트를 default export 합니다.
 
-#### `App.jsx`
+**`App.jsx`**
 
-- `Gallery.jsx`에서 `Profile`를 `Profile`로 named import 합니다.
-- `Gallery.jsx`에서 `Gallery`를 default import 합니다.
-- root App 컴포넌트를 default export 합니다.
+* `Gallery.jsx`에서 `Profile`를 `Profile`로 named import 합니다.
+* `Gallery.jsx`에서 `Gallery`를 default import 합니다.
+* root App 컴포넌트를 default export 합니다.
