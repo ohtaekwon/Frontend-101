@@ -32,7 +32,7 @@
     * [코드 생성과 타입이 관계 없음을 이해하기](typescript/01./item03\_.md)
 * [✡ Learn React](react/README.md)
   * [👋 시작하기](react/get-started/README.md)
-    * [🔧 1. Installation and starting](react/get-started/1.-installation-and-starting/README.md)
+    * [🔧 1. 설치와 시작하기](react/get-started/1.-installation-and-starting/README.md)
       * [1⃣ 1.1. 새 React 프로젝트 시작하기](react/get-started/1.-installation-and-starting/1-1\_start-a-new-react-project.md)
       * [2⃣ 1.2. 기존 프로젝트에 React 추가하기](react/get-started/1.-installation-and-starting/1-2\_add-react-to-an-existing-project.md)
     * [🛴 2. 빠른 시작하기](react/get-started/2.-quick-start/README.md)

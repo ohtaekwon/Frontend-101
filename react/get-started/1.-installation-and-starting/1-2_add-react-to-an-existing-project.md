@@ -2,7 +2,7 @@
 description: Add React to an Existing Project
 ---
 
-# 1.2. 기존 프로젝트에 React 추가하기
+# 2⃣ 1.2. 기존 프로젝트에 React 추가하기
 
 ### Add React to an Existing Project
 
@@ -25,5 +25,3 @@ React 트리가 시작되는 곳이기 때문에 `Root(루트)`라고 부릅니�
 ### Step 2: Add the script tags
 
 HTML 페이지에서 담는 `</body>` 태그를 바로 밑에 다음 파일에 대한 세 개의 `<script>`태그를 추가합니다.
-
-#### Step 3: Create a React component
