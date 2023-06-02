@@ -2,7 +2,7 @@
 description: 리액트 배우기를 들어가며
 ---
 
-# 🟪 Learn React
+# ✡ Learn React
 
 ## Intro
 
