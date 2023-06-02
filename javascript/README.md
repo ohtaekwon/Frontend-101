@@ -16,9 +16,7 @@ description: 자바스크립트 배우기
 
 * 개념 설명 -  자스크립트 DeepDive
 
-<figure><img src="../.gitbook/assets/image.png" alt="자바스크립트 Deep Dive" width="188"><figcaption><p>자바스크립트 DeepDive</p></figcaption></figure>
-
-##
+<img src="../.gitbook/assets/image.png" alt="" data-size="original">
 
 ## Additional
 
