@@ -1,8 +1,8 @@
 ---
-description: 목차
+description: Guide
 ---
 
-# 🛣 Guide
+# 📔 들어가며
 
 ## 목차
 
