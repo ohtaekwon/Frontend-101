@@ -18,8 +18,8 @@ description: 리액트 배우기를 들어가며
 
 ### Additional
 
-| 구분               | 링크                                                 |   |
-| ---------------- | -------------------------------------------------- | - |
-| **Drag & Drop**  | [깃허보 보기](https://github.com/ohtaekwon/react-dnd)   |   |
-| **칸반 Todo 만들기**  | [깃허브 보기](https://github.com/ohtaekwon/todo-kanban) |   |
-|                  |                                                    |   |
+| 구분               | 링크                                                 |
+| ---------------- | -------------------------------------------------- |
+| **Drag & Drop**  | [깃허보 보기](https://github.com/ohtaekwon/react-dnd)   |
+| **칸반 Todo 만들기**  | [깃허브 보기](https://github.com/ohtaekwon/todo-kanban) |
+|                  |                                                    |
