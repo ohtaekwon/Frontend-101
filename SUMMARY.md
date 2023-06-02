@@ -2,7 +2,7 @@
 
 * [TK'S DEV TIL](README.md)
 * [🟨 Learn JavaScript](javascript/README.md)
-  * [Guide](javascript/guide.md)
+  * [🛣 Guide](javascript/guide.md)
   * [4⃣ 04.변수](javascript/04./README.md)
     * [04.1. 변수란 무엇인가?](javascript/04./4.1\_.md)
     * [04.2. 식별자](javascript/04./4.2\_.md)
