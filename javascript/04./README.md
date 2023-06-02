@@ -1,8 +1,8 @@
 ---
-description: 들어가기 전에
+description: Variable
 ---
 
-# 04.변수
+# 4⃣ 04.변수
 
 이번 장에서는 변수에 대해서 알아볼 것입니다.&#x20;
 
