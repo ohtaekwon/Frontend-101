@@ -1,6 +1,6 @@
 # Table of contents
 
-* [TK'S DEV TIL](README.md)
+* [TK'S Learning Book](README.md)
 * [🟨 Learn JavaScript](javascript/README.md)
   * [📔 들어가며](javascript/undefined.md)
   * [4⃣ 04.변수](javascript/04./README.md)

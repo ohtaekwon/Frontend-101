@@ -1,14 +1,10 @@
----
-description: 지은이
----
-
-# TK'S DEV TIL
+# TK'S Learning Book
 
 > 시작 : 2023.05.25 \~
 >
 > 이메일 : ohtk1119@gmail.com
 >
-> 깃허브 : [https://github.com/ohtaekwon](https://github.com/ohtaekwon)
+> 깃허브 : [https://github.com/ohtaekwon](https://github.com/ohtaekwon)&#x20;
 >
 > 블로그 : [https://velog.io/@taetae-5](https://velog.io/@taetae-5)
 
@@ -18,9 +14,9 @@ FE 개발자로서 공부를 위해 매일 배운 내용들은 정리를 하며 
 
 ## Index
 
-1. [**JavaScript Stud**](https://github.com/ohtaekwon/Frontend-101/tree/main/JavaScript)**y**
-2. [**React Study**](https://github.com/ohtaekwon/Frontend-101/tree/main/React)
-3. [**TypeScript Study**](https://github.com/ohtaekwon/Frontend-101/tree/main/TypeScript)
+1. [**JavaScript Study**](javascript/)
+2. [**React Study**](react/)
+3. [**TypeScript Study**](typescript/)
 4. Next.js
 5. React-Query
 6. Library
