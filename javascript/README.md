@@ -2,7 +2,7 @@
 description: 자바스크립트 배우기
 ---
 
-# 🟨 Learn JavaScript
+# 🟨 JavaScript
 
 ## Intro
 
@@ -16,7 +16,7 @@ description: 자바스크립트 배우기
 
 * 개념 설명 -  자스크립트 DeepDive
 
-<img src="../.gitbook/assets/image.png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (2).png" alt="" data-size="original">
 
 ## Additional
 
