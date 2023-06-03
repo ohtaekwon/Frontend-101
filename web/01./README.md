@@ -41,7 +41,7 @@ description: Rendering in Browser
 
 #### 4) 브라우저의 렌더링 과정
 
-<figure><img src="../.gitbook/assets/브라우저 렌더링 과정.png" alt=""><figcaption><p>브라우저의 랜더링 과정</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/브라우저 렌더링 과정.png" alt=""><figcaption><p>브라우저의 랜더링 과정</p></figcaption></figure>
 
 브라우저는 다음을 거쳐 렌더링을 수행합니다.
 

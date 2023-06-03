@@ -50,4 +50,5 @@
       * [1.3. JSX로 마크업 작성하기](react/learn-react/1.-ui/1-3\_writing-markup-with-jsx.md)
 * [🌐 Web](web/README.md)
   * [🗒 들어가며](web/undefined.md)
-  * [1⃣ 01. 브라우저의 랜더링](web/01..md)
+  * [1⃣ 01. 브라우저의 랜더링](web/01./README.md)
+    * [01.1. 요청과 응답](web/01./01.1..md)
