@@ -44,9 +44,9 @@ description: Entering
     5. [논리 연산자](07./07.2\_-typeof.md#75-논리-연산자)
     6. [쉼표 연산자](07./07.2\_-typeof.md#76-쉼표-연산자)
     7. 그룹 연산자
-    8. [typeof 연산자](07./07.2.-typeof.md#typeof)
-    9. [지수 연산자](07./07.2.-typeof.md#undefined)
-    10. [그 외의 연산자](07./07.2.-typeof.md#undefined-1)
+    8. [typeof 연산자](07./07.3.-typeof.md#typeof)
+    9. [지수 연산자](07./07.3.-typeof.md#undefined)
+    10. [그 외의 연산자](07./07.3.-typeof.md#undefined-1)
 
 
 
