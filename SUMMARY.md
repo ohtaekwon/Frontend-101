@@ -25,6 +25,8 @@
     * [07.2. 삼항 조건,논리,쉼표,그룹 연산자](javascript/07./07.2\_-typeof.md)
     * [07.3. typeof, 지수, 그 외의 연산자](javascript/07./07.2.-typeof.md)
     * [07.4. 부수효과, 우선순위, 결합순서](javascript/07./07.4..md)
+  * [8⃣ 08. 제어문](javascript/08./README.md)
+    * [08.1. 블록문, 조건문](javascript/08./08.1..md)
 * [🟦 Learn TypeScript](typescript/README.md)
   * [📘 들어가며](typescript/undefined.md)
   * [1⃣ 타입스크립트 알아보기](typescript/01./README.md)
