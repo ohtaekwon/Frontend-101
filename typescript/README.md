@@ -1,5 +1,5 @@
 ---
-description: 타입스크립트 배우기를 들어가며
+description: 타입스크립트 배우기
 ---
 
 # 🟦 Learn TypeScript

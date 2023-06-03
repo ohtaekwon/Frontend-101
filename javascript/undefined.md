@@ -43,10 +43,13 @@ description: Entering
     4. [삼항조건연산자](07./07.2\_-typeof.md#74-삼항-조건-연산자)
     5. [논리 연산자](07./07.2\_-typeof.md#75-논리-연산자)
     6. [쉼표 연산자](07./07.2\_-typeof.md#76-쉼표-연산자)
-    7. 그룹 연산자
-    8. [typeof 연산자](07./07.3.-typeof.md#typeof)
-    9. [지수 연산자](07./07.3.-typeof.md#undefined)
-    10. [그 외의 연산자](07./07.3.-typeof.md#undefined-1)
+    7. [그룹 연산자](07./07.2\_-typeof.md#undefined-3)
+    8. [typeof 연산자](07./07.2.-typeof.md#typeof)
+    9. [지수 연산자](07./07.2.-typeof.md#undefined)
+    10. [그 외의 연산자](07./07.2.-typeof.md#undefined-1)
+    11. [연산자의 부수효과](07./07.4..md#undefined)
+    12. [연산자의 우선순위](07./07.4..md#undefined-2)
+    13. [연산자의 결합순서](07./07.4..md#undefined-3)
 
 
 
