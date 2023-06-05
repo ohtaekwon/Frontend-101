@@ -27,6 +27,7 @@
     * [07.4. 부수효과, 우선순위, 결합순서](javascript/07./07.4..md)
   * [8⃣ 08. 제어문](javascript/08./README.md)
     * [08.1. 블록문, 조건문](javascript/08./08.1..md)
+    * [08.2. 반복문](javascript/08./08.2..md)
 * [🟦 TypeScript](typescript/README.md)
   * [📘 들어가며](typescript/undefined.md)
   * [1⃣ 타입스크립트 알아보기](typescript/01./README.md)
